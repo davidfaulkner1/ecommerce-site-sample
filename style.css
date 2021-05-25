@@ -1,0 +1,222 @@
+/* David Faulkner G00299507 GMIT Web Apps Project */
+
+/* GLOBAL */
+/* body global style */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(44, 44, 44);
+    overflow: scroll;
+    
+}
+
+/* container global style */
+.container {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* HOME PAGE (index.php) */ 
+/* NAVBAR */
+/* navbar height */
+.navbar {
+    min-height: 100px;
+}
+
+/* apply spacing margin to left of navbar links */
+#nav-links {
+    margin-left: 35px;
+}
+
+/* apply spacing margin to rightof navbar links li items */
+#nav-page-links li{
+    margin-right: 25px;
+}
+
+/* sign up, login and log-out buttons */
+#nav-bar-buttons .btn {
+    color:#252627;
+    background-color: #dbdbdb;
+    border: none;
+    margin-left: 30px;
+}
+
+/* login menu dropdown align middle */
+.nav-item-dropdown {
+    align-items: middle;
+}
+
+/* login menu dropdown add padding border */
+.dropdown-menu.show {
+    width: 250px;
+    padding: 25px;
+}
+
+/* border line under nav bar */
+hr.line {
+	height: 2px;
+    margin: 0;
+}
+
+
+/* CAROUSEL */
+/* carousel width and height */
+.carousel-inner{
+    width: 100%;
+    height: 70vh;
+}
+
+/* carousel images sizing */
+.carousel-item {
+    width: 100%;
+    height: auto;
+    bottom: 200px;
+}
+
+
+/* ABOUT (index.php) and CONTACT (contact.php) */
+/* min-height settings for about contact sections */
+#about, #contact {
+    min-height: 400px;
+}
+
+/* paragraph text settings for about and contact sections */
+#about p, #contact p {
+    color: rgb(68, 68, 68);
+    vertical-align: middle;
+}
+
+/* image for about section size */
+#about img {
+    height: 300px;
+}
+
+
+/* CONTACT PAGE (contact.php) */
+/* contact section font and margin/alignment settings */
+#contact {
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* contact section image size settings */
+#contact img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* SIGN-UP page (sign-up.php) */
+/* sign-up section margin top and bottom spacing */
+#sign-up {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* margin spacing between form inputs and labels */
+#sign-up div {
+    margin: 10px;
+}
+
+
+/* FOOTER (index.php) */
+/* footer generic sizing, alignment and font settings */
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #252627;
+    color: #e2e2e2;
+    text-align: right;
+    height: 120px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* social media item group margin */
+#social {
+    margin-right: auto;
+}
+
+/* social media icons  margin spacing */
+#social i {
+    margin: 0 20px;
+}
+
+/* remove underline on links and paragraph items set colour */
+footer a, p {
+    text-decoration: none;
+    color: #b1b1b1;
+}
+
+/* back to top of page icon margin */
+#back-to-top {
+    margin-left: auto;
+}
+
+/* top part of footer padding spacing above */
+#top-footer {
+    padding-top: 15px;
+}
+
+/* links in footer, on hover go to white */
+footer a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
+}
+
+
+/* LOGIN page (login.php) *not used - login dropdown instead */
+/* login global styles */
+.login-div {
+    background-color: #e2e2e2;
+    margin: 50px auto;
+    width: 350px;
+    padding: 50px;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* logo class sizing */
+.logo {
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* logo image sizing */
+.logo img {
+    width: 100%;
+}
+
+/* login button sizing and colour */
+.login-div button {
+    width: 100%;
+    background-color:  #252627;
+    border: none;
+}
+
+/* login button on hover style */
+.login-div button:hover {
+    background-color: #004e92e3;
+}
+
+/* link to bring to home page styling */
+.back-home a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #3c4349;
+    font-family: 'Raleway', sans-serif;
+    margin: 35px;
+}
+
+/* back home link on hover style */
+.back-home a:hover {
+    color: #004e92e3;
+    transition: 0.5s;
+}
+
+/* remove underline style from links */
+.login-div .form-text a {
+    text-decoration: none;
+}
